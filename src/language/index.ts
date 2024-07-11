@@ -1,3 +1,4 @@
+// 国际化
 import i18n from "i18next";
 import enUsTrans from "./modules/en";
 import zhCnTrans from "./modules/zh";

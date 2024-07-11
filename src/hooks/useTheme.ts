@@ -4,7 +4,7 @@ import { ThemeConfigProp } from "@/redux/interface";
 
 /**
  * @description 全局主题设置
- * */
+ **/
 const useTheme = (themeConfig: ThemeConfigProp) => {
 	const { weakOrGray, isDark } = themeConfig;
 	const initTheme = () => {
@@ -29,9 +29,7 @@ const useTheme = (themeConfig: ThemeConfigProp) => {
 	};
 	initTheme();
 
-	return {
-		initTheme
-	};
+	return { initTheme };
 };
 
 export default useTheme;

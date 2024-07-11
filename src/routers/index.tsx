@@ -34,7 +34,9 @@ export const rootRouter: RouteObject[] = [
 	}
 ];
 
+/** 主路由组件 */
 const Router = () => {
+	// 返回值是一个 React 元素
 	const routes = useRoutes(rootRouter);
 	return routes;
 };
