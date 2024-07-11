@@ -7,9 +7,7 @@ import { store } from "@/redux/index";
 
 const axiosCanceler = new AxiosCanceler();
 
-/**
- * @description 路由守卫组件
- * */
+/** 路由守卫组件 */
 const AuthRouter = (props: { children: JSX.Element }) => {
 	const { pathname } = useLocation();
 	const route = searchRoute(pathname, rootRouter);

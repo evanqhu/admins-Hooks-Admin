@@ -4,7 +4,5 @@ import Layout from "@/layouts/index";
 // import lazyLoad from "@/routers/utils/lazyLoad";
 // const Layout = lazyLoad(React.lazy(() => import("@/layouts/index")));
 
-/**
- * @description: default layout
- */
+/** 默认布局组件 */
 export const LayoutIndex = () => <Layout />;
